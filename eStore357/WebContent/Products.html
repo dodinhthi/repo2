@@ -1,0 +1,456 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Online Shopping Mall</title>
+
+	<!--JQuery-->
+    <script src="jquery/js/jquery-1.7.2.min.js"></script>
+	<script src="jquery/js/jquery.validate.js"></script>
+	<link href="jquery/css/custom-theme/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css"/>
+	<script src="jquery/js/jquery-ui-1.8.21.custom.min.js"></script>
+	
+	<!--Artisteer-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 6]><link rel="stylesheet" href="style.ie6.css" type="text/css"/><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="style.ie7.css" type="text/css"/><![endif]-->
+    <script src="script.js"></script>
+	
+	<!--Nguyen Nghiem-->
+	<link rel="stylesheet" href="nn-style.css" type="text/css" media="screen" />
+	<script>
+	$(function(){
+		$(".date").datepicker({dateFormat:'yy-mm-dd'});
+		$(".tabs").tabs();
+		$(":submit,:button,:reset").button();
+	})
+	</script>
+</head>
+<body>
+<div id="art-page-background-glare-wrapper">
+    <div id="art-page-background-glare"></div>
+</div>
+<div id="art-main">
+    <div class="cleared reset-box"></div>
+<div class="art-bar art-nav">
+<div class="art-nav-outer">
+<div class="art-nav-wrapper">
+<div class="art-nav-inner">
+	<ul class="art-hmenu">
+		<li><a href="Default.aspx">Trang Chủ</a></li>	
+		<li><a href="AboutUs.aspx">Giới Thiệu</a></li>	
+		<li><a href="ContactUs.aspx">Liên Hệ</a></li>	
+		<li><a href="Feedback.aspx">Góp Ý</a></li>	
+		<li><a href="FAQs.aspx">Hỏi-Đáp</a></li>	
+		<li>
+			<a href="#">Tài Khoản</a>
+			<ul>
+				<li><a href="SignIn.aspx">Đăng nhập</a></li>
+				<li><a href="ForgotPassword.aspx">Quên mật khẩu</a></li>
+				<li><a href="SignUp.aspx">Đăng ký thành viên</a></li>
+				<li><a href="SignOut.aspx">Đăng xuất</a></li>
+				<li><a href="ChangePassword.aspx">Đổi mật khẩu</a></li>
+				<li><a href="EditProfile.aspx">Hồ sơ cá nhân</a></li>
+				<li><a href="PurchasedOrders.aspx">Đơn hàng</a></li>
+				<li><a href="PurchasedProducts.aspx">Hàng đã mua</a></li>
+			</ul>
+		</li>	
+	</ul>
+	<ul class="art-hmenu" style="float:right">
+		<li><a href="?Language=en_US">English</a></li>	
+		<li><a href="?Language=vi_VN">Tiếng Việt</a></li>	
+	</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="cleared reset-box"></div>
+	<div class="art-header">
+        <div class="art-header-position">
+            <div class="art-header-wrapper">
+                <div class="cleared reset-box"></div>
+                <div class="art-header-inner">
+					<div class="art-headerobject"></div>
+					<div class="art-logo">
+						<h1 class="art-logo-name"><a href="./index.html">Java Technology Suite</a></h1>
+						<h2 class="art-logo-text">The center point of professional programming technologies</h2>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!--art-header-->
+    <div class="cleared reset-box"></div>
+    <div class="art-box art-sheet">
+        <div class="art-box-body art-sheet-body">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content">
+<div class="art-box art-post">
+    <div class="art-box-body art-post-body">
+<div class="art-post-inner art-article">
+	<h2 class="art-postheader">Tiêu đề trang hoặc đường dẫn</h2>
+	<div class="art-postcontent">
+
+		<!--trình bày hàng hóa theo hàng-->
+		<div class="nn-box nn-box-row">
+			<img class="nn-box-image" src="images/products/clock.jpg"/>
+			<ul style="display:inline-block;">
+				<li>Name: Jack's New England Clam Chowder</li>
+				<li>Category: Touch pad</li>
+				<li>Supplier: Nokia</li>
+				<li>Unit price: $ 499.99</li>
+				<li>Unit description: 3 in one</li>
+				<li>Sales off: 5%</li>
+			</ul>
+			<img class="nn-box-icon" src="images/new_icon.gif"/>
+			<div class="nn-box-actions">
+				<img src="images/icons/Favourites.png"/>
+				<img src="images/icons/Letter.png"/>
+				<img src="images/icons/Add to basket.png"/>
+			</div>
+		</div>
+		<!--/trình bày hàng hóa theo hàng-->
+		
+		<!--trình bày hàng hóa theo cột-->
+		<div class="nn-box-col-wrapper">
+			
+			<!--mặt hàng 1-->
+			<div class="nn-box nn-box-col">
+				<div class="nn-box-col-name">Nokia 2012</div>
+				<img class="nn-box-image" src="images/products/clock.jpg"/>
+				<div class="nn-box-col-price">$99.99</div>
+				<div class="nn-box-actions">
+					<img src="images/icons/Favourites.png"/>
+					<img src="images/icons/Letter.png"/>
+					<img src="images/icons/Add to basket.png"/>
+				</div>
+				<img class="nn-box-icon" src="images/new_icon.gif"/>
+			</div>
+			<!--/mặt hàng 1-->
+			
+			<!--mặt hàng 2-->
+			<div class="nn-box nn-box-col">
+				<div class="nn-box-col-name">Nokia 2012</div>
+				<img class="nn-box-image" src="images/products/clock.jpg"/>
+				<div class="nn-box-col-price">$99.99</div>
+				<div class="nn-box-actions">
+					<img src="images/icons/Favourites.png"/>
+					<img src="images/icons/Letter.png"/>
+					<img src="images/icons/Add to basket.png"/>
+				</div>
+				<img class="nn-box-icon" src="images/new_icon.gif"/>
+			</div>
+			<!--/mặt hàng 2-->
+			
+			<!--mặt hàng 3-->
+			<div class="nn-box nn-box-col">
+				<div class="nn-box-col-name">Nokia 2012</div>
+				<img class="nn-box-image" src="images/products/clock.jpg"/>
+				<div class="nn-box-col-price">$99.99</div>
+				<div class="nn-box-actions">
+					<img src="images/icons/Favourites.png"/>
+					<img src="images/icons/Letter.png"/>
+					<img src="images/icons/Add to basket.png"/>
+				</div>
+				<img class="nn-box-icon" src="images/new_icon.gif"/>
+			</div>
+			<!--/mặt hàng 3-->
+			
+		</div>
+		<!--/trình bày hàng hóa theo cột-->
+		
+		<!--hàng đã xem-->
+		<div class="nn-hang-da-xem">
+			<h3>Hàng đã xem</h3>
+			<a href="Details.aspx?MaHH=1001" title="Tên hàng hóa">
+				<img src="images/products/clock.jpg"/></a>
+			<a href="Details.aspx?MaHH=1001" title="Tên hàng hóa">
+				<img src="images/products/clock.jpg"/></a>
+			<a href="Details.aspx?MaHH=1001" title="Tên hàng hóa">
+				<img src="images/products/clock.jpg"/></a>
+			<a href="Details.aspx?MaHH=1001" title="Tên hàng hóa">
+				<img src="images/products/clock.jpg"/></a>
+		</div>
+		<!--/hàng đã xem-->
+		
+	</div>
+	<div class="cleared"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+                          <div class="cleared"></div>
+                        </div>
+<div class="art-layout-cell art-sidebar1">
+
+<!--block:: giỏ hàng-->
+<div class="art-box art-block">
+    <div class="art-box-body art-block-body">
+		<div class="art-box art-blockcontent">
+			<div class="art-box-body art-blockcontent-body">
+				<table width="100%">
+				<tr>
+					<td width="55">
+						<a href="gio-hang.php" title="View Your Shopping Cart !">
+							<img src="images/shoppingcart.gif" width="50" height="50">
+						</a>
+					</td>
+					<td>
+						<div><img src="images/postbullets.png"> 5 mặt hàng</div>
+						<div><img src="images/postbullets.png"> $ 100.50</div>
+						<div><img src="images/postbullets.png"> <a href="CartManager.aspx">Xem giỏ hàng</a></div>
+					</td>
+					<td align="center">
+						<img src="images/icons/users.png"><br>
+						<span style="font-weight:bold;font-size:20px;color:silver">123456</span>
+					</td>
+				</tr>
+				</table>
+				<div class="cleared"></div>
+			</div>
+		</div>
+		<div class="cleared"></div>
+    </div>
+</div>
+<!--block:: giỏ hàng-->
+
+<!--block:: quảng cáo-->
+<div class="art-box art-block">
+    <div class="art-box-body art-block-body">
+		<div class="art-box art-blockcontent">
+			<div class="art-box-body art-blockcontent-body">
+				<img src="images/preview.jpg" width="100%" height="150">
+				<div class="cleared"></div>
+			</div>
+		</div>
+		<div class="cleared"></div>
+    </div>
+</div>
+<!--block:: quảng cáo-->
+
+<!--navigation-->
+<div class="nn-nav-left">
+
+	<!--vmenu:: tìm kiếm-->
+	<div class="art-box art-vmenublock">
+		<div class="art-box-body art-vmenublock-body">
+			<div class="art-bar art-vmenublockheader">
+				<h3 class="t"><img src="images/icons/Search.png">Tìm kiếm</h3>
+			</div>
+			<div class="art-box art-vmenublockcontent">
+				<div class="art-box-body art-vmenublockcontent-body">
+					<form action="hang-hoa.php">
+						<input placeholder="Từ khóa" style="width:97%"/>
+					</form>
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--/vmenu::tìm kiếm-->
+
+	<!--vmenu::chủng loại-->
+	<div class="art-box art-vmenublock">
+		<div class="art-box-body art-vmenublock-body">
+			<div class="art-bar art-vmenublockheader">
+				<h3 class="t"><img src="images/icons/Bricks.png">Chủng loại</h3>
+			</div>
+			<div class="art-box art-vmenublockcontent">
+				<div class="art-box-body art-vmenublockcontent-body">
+					<ul class="art-vmenu">
+						<li><a href="Products.aspx?MaLoai=1001">Bags</a></li>
+						<li><a href="Products.aspx?MaLoai=1002">Boats</a></li>
+						<li><a href="Products.aspx?MaLoai=1003">Cameras</a></li>
+						<li><a href="Products.aspx?MaLoai=1004">Clocks</a></li>
+						<li><a href="Products.aspx?MaLoai=1005">Jewels</a></li>
+						<li><a href="Products.aspx?MaLoai=1006">Laptops</a></li>
+						<li><a href="Products.aspx?MaLoai=1007">Mobiles</a></li>
+						<li><a href="Products.aspx?MaLoai=1008">Perfumes</a></li>
+					</ul> 
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--/vmenu::chủng loại-->
+
+	<!--vmenu::nhà cung cấp-->
+	<div class="art-box art-vmenublock">
+		<div class="art-box-body art-vmenublock-body">
+			<div class="art-bar art-vmenublockheader">
+				<h3 class="t"><img src="images/icons/Company.png">Nhà cung cấp</h3>
+			</div>
+			<div class="art-box art-vmenublockcontent">
+				<div class="art-box-body art-vmenublockcontent-body">
+					<ul class="art-vmenu">
+						<li><a href="Products.aspx?MaNCC=AP">Apple</a></li>
+						<li><a href="Products.aspx?MaNCC=MO">Motorola</a></li>
+						<li><a href="Products.aspx?MaNCC=NK">Nokia</a></li>
+						<li><a href="Products.aspx?MaNCC=SS">Samsung</a></li>
+						<li><a href="Products.aspx?MaNCC=Seamen">Seamen</a></li>
+					</ul> 
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--/vmenu::nhà cung cấp--->
+
+	<!--vmenu::hàng đặc biệt-->
+	<div class="art-box art-vmenublock">
+		<div class="art-box-body art-vmenublock-body">
+			<div class="art-bar art-vmenublockheader">
+				<h3 class="t"><img src="images/icons/Best.png">Hàng đặc biệt</h3>
+			</div>
+			<div class="art-box art-vmenublockcontent">
+				<div class="art-box-body art-vmenublockcontent-body">
+					<ul class="art-vmenu">	
+						<li><a href="Products.aspx?Spec=MOI">Mới</a></li>
+						<li><a href="Products.aspx?Spec=CHA">Bán chạy</a></li>
+						<li><a href="Products.aspx?Spec=GIA">Giảm giá</a></li>
+						<li><a href="Products.aspx?Spec=CHI">Chia sẻ nhiều</a></li>
+						<li><a href="Products.aspx?Spec=XEM">Xem nhiều</a></li>
+						<li><a href="Products.aspx?Spec=DAC">Đặc biệt</a></li>
+					</ul> 
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--/vmenu::hàng đặc biệt-->
+
+	</div>
+
+	<div class="nn-nav-right">
+
+	<!--block::hàng khuyến mại-->
+	<div class="art-box art-block">
+		<div class="art-box-body art-block-body">
+			<div class="art-box art-blockcontent">
+				<div class="art-box-body art-blockcontent-body nn-center">
+					<div class="nn-box nn-box-promo">
+						<img src="images/products/clock.jpg">
+					</div>
+					<div class="nn-box nn-box-promo">
+						<img src="images/products/clock.jpg">
+					</div>
+					<div class="nn-box nn-box-promo">
+						<img src="images/products/clock.jpg">
+					</div>
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--/block::hàng khuyến mại-->
+
+	<!--block::bình chọn website-->
+	<div class="art-box art-block">
+		<div class="art-box-body art-block-body">
+			<div class="art-bar art-blockheader">
+				<h3 class="t"><img src="images/icons/Card file.png">Bình chọn Website</h3>
+			</div>
+			<div class="art-box art-blockcontent">
+				<div class="art-box-body art-blockcontent-body">
+					<table width="100%">
+					<tr>
+						<td width="20"><input type="radio" name="rdoVote" value="0" id="V0"/></td>
+						<td><label for="V0">Tuyệt vời</label></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="rdoVote" value="1" id="V1"/></td>
+						<td><label for="V1">Rất tốt</label></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="rdoVote" value="2" id="V2" checked/></td>
+						<td><label for="V2">Tốt</label></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="rdoVote" value="3" id="V3"/></td>
+						<td><label for="V3">Thường</label></td>
+					</tr>
+					<tr>
+						<td><input type="radio" name="rdoVote" value="4" id="V4"/></td>
+						<td><label for="V4">Tồi</label></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="right"><a href="?">Gửi</a></td>
+					</tr>
+					</table>
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--block::bình chọn website-->
+
+	<!--vmenu::hỗ trợ trực tuyến-->
+	<div class="art-box art-vmenublock">
+		<div class="art-box-body art-vmenublock-body">
+			<div class="art-bar art-vmenublockheader">
+				<h3 class="t"><img src="images/icons/Call.png">Hỗ trợ trực tuyến</h3>
+			</div>
+			<div class="art-box art-vmenublockcontent">
+				<div class="art-box-body art-vmenublockcontent-body">
+					<a href="ymsgr:sendIM?nnghiem">
+						<img src="http://opi.yahoo.com/online?u=nnghiem&m=g&t=2" title="Phòng kinh doanh">
+					</a>
+					<a href="ymsgr:sendIM?nnghiem">
+						<img src="http://opi.yahoo.com/online?u=nnghiem&m=g&t=2" title="Phòng kế toán">
+					</a>
+					<a href="ymsgr:sendIM?nnghiem">
+						<img src="http://opi.yahoo.com/online?u=nnghiem&m=g&t=2" title="Phòng kỹ thuật">
+					</a>
+					<a href="ymsgr:sendIM?nnghiem">
+						<img src="http://opi.yahoo.com/online?u=nnghiem&m=g&t=2" title="Phòng nhân sự">
+					</a> 
+					<div class="cleared"></div>
+				</div>
+			</div>
+			<div class="cleared"></div>
+		</div>
+	</div>
+	<!--/vmenu::hỗ trợ trực tuyến-->
+
+</div>
+<!--/navigation-->
+
+                          <div class="cleared"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cleared"></div>
+            <div class="art-footer">
+                <div class="art-footer-body">
+                    <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+					<div class="art-footer-text">
+						<p>
+							<a href="Default.aspx">Trang Chủ</a> | 
+							<a href="AboutUs.aspx">Giới Thiệu</a> | 
+							<a href="ContactUs.aspx">Liên Hệ</a> | 
+							<a href="Feedback.aspx">Góp Ý</a> | 
+							<a href="FAQs.aspx">Hỏi-Đáp</a>
+						</p>
+						<p>Copyright © 2012. All Rights Reserved.</p>
+					</div>
+                    <div class="cleared"></div>
+                </div>
+            </div>
+    		<div class="cleared"></div>
+        </div>
+    </div>
+    <div class="cleared"></div>
+</div>
+
+</body>
+</html>

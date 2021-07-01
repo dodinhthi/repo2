@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1258">
+  <title>jQuery Tools standalone demo</title>
+
+<!-- include the Tools -->
+<script src="../jquery/js/jquery-1.7.2.min.js"></script>
+<script src="jquery.tools.min.js"></script>
+<link rel="stylesheet" type="text/css" href="vscroller.css">
+<script>
+$(function() {
+    $(".vscroller").scrollable({ 
+		vertical: true, 
+		mousewheel: true, 
+		circular: true, 
+		speed: 1000}).autoscroll();
+});
+</script>
+
+</head>
+<body>
+
+<div class="vscroller">
+
+  <div>
+    
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+      <img src="1.jpg">
+	  
+  </div>
+  
+</div>
+
+
+
+
+</body></html>
