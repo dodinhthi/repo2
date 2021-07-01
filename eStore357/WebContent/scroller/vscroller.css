@@ -1,0 +1,25 @@
+.vscroller {
+    position:relative;
+    overflow:hidden;
+
+    height: 400px;
+    width: 140px;
+}
+
+.vscroller>div {
+    position:absolute;
+    height:20000em;
+    margin: 0px;
+	width: 140px;
+	text-align:center;
+}
+
+.vscroller imgXyz {
+    height:100px;
+    width:100px;
+	padding:10px !important;
+	margin:5px 0px !important;
+	border-radius:10px;
+	box-shadow:0 0 5px gray;
+	cursor:pointer;
+}

@@ -1,0 +1,23 @@
+.hscroller {
+    position:relative;
+    overflow:hidden;
+
+    width: 610px;
+    height: 160px;
+}
+
+.hscroller>div {
+    position:absolute;
+    width:20000em;
+	height: 140px;
+}
+
+.hscroller img {
+    height:120px;
+    width:120px;
+	padding:10px !important;
+	margin:10px 5px 0 5px !important;
+	border-radius:10px;
+	box-shadow:0 0 5px gray;
+	cursor:pointer;
+}

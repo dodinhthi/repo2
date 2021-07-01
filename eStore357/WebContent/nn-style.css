@@ -1,0 +1,116 @@
+﻿.art-article .art-box {
+	margin:5px 2px;
+}
+img{
+	margin:0px !important; 
+	padding:0px !important;
+}
+
+.art-sidebar1 .art-box {
+	margin-left:0px !important;
+}
+.art-sidebar1 .t {
+	padding-left:30px !important; 
+	cursor:pointer;
+}
+.art-sidebar1 .t img{
+	width:20px; 
+	height:20px; 
+	position:absolute; 
+	left:5px; 
+	top:7px;
+}
+
+/*--nn-box--*/
+.nn-box-col-wrapper{
+	text-align:center;
+}
+.nn-box{
+	border-radius: 5px;	
+	box-shadow: 0 0 5px silver;	
+	position:relative; 
+	border:1px solid silver;
+}
+.nn-box:hover{
+	box-shadow: 0 0 5px red;
+}
+.nn-box-image{
+	width:130px; 
+	height:130px;
+}
+.nn-box-icon{
+	position:absolute; 
+	top:0px; 
+	right:0px;
+}
+.nn-box-actions{
+	position:absolute; 
+	right:8px; 
+	bottom:5px; 
+	width:25px
+}
+.nn-box-actions img{
+	cursor:pointer;
+}
+
+/*--nn-box-col-wrapper--*/
+.nn-box-col{
+	width: 190px; 
+	display: inline-block; 
+	margin:20px 5px 5px 5px; 
+	padding: 15px 0px; 
+	text-align:center;
+}
+.nn-box-col-name{
+	position:absolute; 
+	left:0px; 
+	top:-18px; 
+	font-size:10px; 
+	width: 190px; 
+	text-align:center;
+}
+.nn-box-col-price{
+	position:absolute; 
+	left:8px; 
+	bottom:8px; 
+	font-weight:bold; 
+	color:silver;
+}
+
+/*--nn-box-row--*/
+.nn-box-row{
+	margin:10px 5px; 
+	padding: 5px;
+}
+
+/*--hàng đã xem--*/
+.nn-hang-da-xem h3{
+	font-variant:small-caps;
+}
+.nn-hang-da-xem img{
+	width:50px; 
+	height:50px; 
+	padding: 2px !important; 
+	margin:5px !important; 
+	box-shadow: 0 0 8px silver; 
+	border-radius:5px;
+}
+.nn-hang-da-xem img:hover{
+	box-shadow: 0 0 5px red;
+}
+
+/*--thanh cuộn hàng khuyến mãi--*/
+.nn-box-promo
+{
+    text-align:center;
+	margin:10px 0px; 
+	padding: 5px;
+}
+.nn-box-promo img
+{
+	width:100px; height:100px;
+}
+
+/*--cac khoi trai va phai trong sidebar1--*/
+.nn-nav-left {width:50%;float:left;}
+.nn-nav-right {width:50%;float:right;}
